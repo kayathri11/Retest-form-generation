@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login/Sign-up Styles */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.login-form, .signup-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  padding: 20px;
+}
+
+body {  
+  font-family: Arial, sans-serif;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.dashboard-container {  
+  max-width: 800px;  
+  margin: 40px auto;  
+  padding: 20px;  
+  background-color: #f9f9f9;  
+  border: 1px solid #ddd;  
+  border-radius: 10px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+h2 {  
+  text-align: center;  
+  margin-bottom: 20px;  
+}  
+  
+input[type="checkbox"] {  
+  margin-right: 10px;  
+}  
+  
+table {  
+  border-collapse: collapse;  
+  width: 100%;  
+  margin-bottom: 20px;  
+}  
+  
+th, td {  
+  border: 1px solid #ddd;  
+  padding: 10px;  
+  text-align: left;  
+}  
+  
+th {  
+  background-color: #f0f0f0;  
+}  
+  
+td {  
+  background-color: #fff;  
+}  
+  
+#reason-for-absence {  
+  width: 100%;  
+  padding: 10px;  
+  margin-bottom: 20px;  
+}  
+  
+#reason-for-absence option {  
+  padding: 10px;  
+}  
+  
+#dashboard-regno, #dashboard-name {  
+  font-weight: bold;  
+  margin-bottom: 10px;  
+}  
+  
+#error-message {  
+  font-size: 14px;  
+  color: red;  
+  margin-bottom: 10px;  
+}  
+  
+input[type="submit"] {  
+  background-color: #4CAF50;  
+  color: #fff;  
+  padding: 10px 20px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
+  
+input[type="submit"]:hover {  
+  background-color: #3e8e41;  
+}
+
+label {  
+  display: block;  
+  margin-bottom: 10px;  
+}  
+  
+label[for="cie-1"], label[for="cie-2"], label[for="cie-3"] {  
+  display: inline-block;  
+  margin-right: 10px;  
+}  
+  
+input[type="checkbox"] {  
+  margin-right: 10px;  
+  vertical-align: middle;  
+}
+
